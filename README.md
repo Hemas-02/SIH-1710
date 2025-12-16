@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 16/12/25
+## Register Number: 212224040114
+## Name: Hemalatha 
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,16 +11,54 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
+The proposed idea is to develop a QR-based Smart Wayfinding System for railway stations that provides instant navigation without requiring users to install a mobile application. QR codes are placed at important locations such as station entrances, ticket counters, staircases, and platforms.
 
+When a passenger scans a QR code, a web-based navigation interface opens showing the current location and nearby facilities. The system provides simple 2D maps, directional arrows, and text instructions to guide passengers to their destination. For visually impaired passengers, voice instructions are enabled automatically.
+
+Station authorities can update platform numbers, facility status, and route changes from a central admin dashboard, ensuring real-time accuracy. Digital display boards and kiosks are also connected to the same system for consistent information.
+
+This solution reduces dependency on mobile apps, works on any smartphone browser, and is cost-effective for large-scale implementation across multiple railway stations.
 
 ## Proposed Solution / Architecture Diagram
 
+<img width="1536" height="1024" alt="solution" src="https://github.com/user-attachments/assets/241fff9f-715d-415d-a42b-a0bfa63d881b" />
 
 ## Use Cases
+<img width="1536" height="1024" alt="case" src="https://github.com/user-attachments/assets/139c022b-3a02-49e1-8c36-0eedde641731" />
 
 
 ## Technology Stack
+HTML, CSS, JavaScript – Web-based user interface
 
+React.js – Interactive frontend for navigation pages
+
+Node.js – Backend server handling requests
+
+Express.js – API development
+
+PostgreSQL – Storage of station maps and facility data
+
+Google Maps API – Map rendering and route guidance
+
+Firebase Authentication – User and admin authentication
+
+QR Code Generator – Location-based QR access
+
+Git – Version control
+
+Postman / Insomnia – API testing
 
 ## Dependencies
+Station layout and floor plan data
 
+Accurate QR code placement inside stations
+
+Real-time platform and route update data
+
+Stable internet connectivity for web access
+
+Google Maps API availability
+
+Server and cloud hosting support
+
+Coordination with railway station authorities
